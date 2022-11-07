@@ -10,7 +10,7 @@ function App() {
   // Change this to any username whose repositories you want to get
   const [user] = useState("Devraph07")
    const [currentPage, setCurrentPage]=useState(1);
-   const [postsPerPage, setPostsPerPage]= useState(1);
+   const [postsPerPage]= useState(1);
 
   useEffect(() => {
     const fetchRepos = async () => {
